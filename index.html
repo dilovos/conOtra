@@ -1,0 +1,142 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final work Introduction to web design by Ditto Lorena </title>
+    <!---debo poner  link de carpeta de estilos y los archivos con el msmo nombre porque es sencible a la forma de escritura: rel="stylesheet" href="style.css-->
+    <link rel="stylesheet" href="style.css/styles.css">
+    
+</head>
+
+<body>
+    <!--en el cuerpo debo tener: header,main y footer-->
+    <header>
+        <div class="wrap" id="arribadetodo">
+            <div class="wrap-texto">
+                <h1>RICK <br>AND <br> MORTY </h1>
+                <!--<img src="stylo\rick-and-morty-fondo-celeste.jpg"
+                alt="rick and morty fighting in the celestial galaxy">-->
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links no-bullets">
+
+                <li>
+                    <a href="#synopsis"> Synopsis</a>
+                </li>
+                <li>
+                    <a href="#characters"> Characters</a>
+                </li>
+                <li>
+                    <a href="#series"> See series</a>
+
+                <li>
+                    <a href="#acerca"> Acerca del autor</a>
+                </li>
+
+            </ul>
+
+        </nav>
+        </div>
+    </header>
+    <main>
+        <!--IMPORTANTE Cada SECTION tiene un ID que la identifica y será trabajada con "java scrip" (le dá dinamismo)
+        tambien una CLASS será trabajada con "CSS" (le dá belleza). Esto es como personalizarla-->
+       
+        <!--comienzo de la seccion sinopsis-->
+        
+        <!--las imagenes se limitan en medida  con css-->
+
+    <section class="general"  id="synopsis">
+        <h2>Synopsis</h2>
+        <div class="synopsis1">
+           
+        <img src="foto\universo.jpg"  alt="rick and morty en universo " >
+        </div>  
+        <div class="cuadro">
+            <p>After being missing for almost 20 years, Rick Sánchez shows up unexpectedly at his daughter
+                Beth's house.
+                He goes to live with her and her family using the garage as his personal laboratory.</p>
+            <p>BUT ¿WHO IS RICK SANCHEZ REALLY?</p>
+            <p> He is an alcoholic scientist who kidnaps his impressionable grandson, Morty, to live
+                dangerous
+                adventures
+                through our cosmos and parallel universes. </p>
+            <p>Adult science fiction animation </p>
+            <p>Protagonizada por:Justin Roiland,Chris Parnell,Spencer Grammer</p>
+            <p>Creada por:Dan Harmon,Justin Roiland</p>
+       
+        </div>
+        <div style="clear:both;"></div>
+    </section>
+
+        <!--comienzo de seccion personajes-->
+
+        <section id="characters" class="cuadro">
+            <h2>Characters</h2>
+            <div id="contenedor-personajes"  class="contenedor-personajes">
+                <!--en una caja pongo otra con una grilla-->
+
+                <div id= "grilla" class="grilla"></div>
+
+                    <!--contenido renderizado por javascrip-->
+           
+            </div>  
+        </section>
+
+        <!--comienzo de la seccion ver serie-->
+        <section id="series" class="cuadro">
+
+            <h2> See series</h2>
+           
+            <p> See the parallel realities again. All 6 seasons, 61 episodes, of Rick and Morty are avalable on
+                HBOMax.
+            </p>
+            <br>
+            <!--agrego en un parrafo el enlace para abrir HBOMax en otra pestaña, sin cerrar mi pagina-->
+            <p>
+                Tap <a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ"
+                    target="_blank">here</a> to go to HBOMax
+            </p>
+            <br>
+            <!--agrego en un parrafo otro enlace para ir a ver video en youtube en otra pestaña, sin cerrar mi pagina-->
+            <p>
+                <a href="https://youtu.be/P9WZhGMlDBE" target="_blank"> Click</a> to see a preview temporada 6
+                trailer
+                oficial
+            </p>
+        </section>
+        <br>
+        <!-- comienzo de la seccion Acerca del autor-->
+        <section id="acerca" class="cuadro">
+            <h2>About the author</h2>
+            <img src= "foto\loreMorocha.jpg" " alt="Another version of Lorena Ditto ">
+
+            <p>The creator of this simple web page, Lorena Veronica Ditto, is a retired teacher with the intention
+                of
+                exploring new horizons.</p>
+            <h4> Will his life now be like Rick's or Morty's?</h4>
+            <br>
+            <a href="#arribadetodo"> ir arriba</a>
+        </section>
+
+    </main>
+    <br>
+    <footer>
+        <ul>
+            <li>Introduction to Frontend Graph. Argentina Programa 4.0</li>
+            <li> "Rick and Murphy" New app project</li>
+            <li> Worked by Lorena Ditto</li>
+            <li> Under the direction of Professor Gabriel Albertini </li>
+            <li> III -IV 2023</li>
+        </ul>
+        <ul>
+            <li> Contac AT whatsapp 2224533553</li>
+            <li>IMAIL loditto@abc.gob.ar / dilovos@gmail.com</li>
+        </ul>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
