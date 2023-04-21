@@ -1,3 +1,5 @@
+
+/*reseteo*/
 * {
     margin: 0;
     padding: 0;
@@ -5,33 +7,21 @@
 }
 
 body {
-    background-color: rgb(0, 221, 255);
-    color: #0b096d;
-    font-size: 26px;
+     background-color: rgb(0, 221, 255);
+     color: blue;
+     font-size: 26px;
 }
 
-/*header{
-        background-image: url(stylo\rick-morty-rick-celeste grande.png) no-repeat;
-        background-size: cover;
-        height: 300px;
-        overflow: hidden;       
-}*/
 header {
-    height: 90%;
-
+    height: 100%;
     margin: 10;
-
 }
 
 ul.no-bullets {
   list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
-  padding: 10px 3px;
-  
+ padding: 0; */ Remove padding */
+  margin: 0; /* Remove margins */ 
 }
-
-
 
 .wrap {
     width: 100%;
@@ -39,12 +29,9 @@ ul.no-bullets {
     display: flex;
     align-items: center;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/874/783/771/rick-and-morty-drawing-rick-sanchez-morty-smith-wallpaper-preview.jpg);
-        /*(linear-gradient(to right,rgb(0 0 0/.5),rgb(0 0 0 /.5)))*/
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat;
-    height: 300px;
-    overflow: hidden;*/
+    
 }
 
 .wrap-texto {
@@ -56,7 +43,7 @@ ul.no-bullets {
     text-align: left center;
 }
 
-.nav-links {
+.nav-links  {
     background-color: rgb(255, 145, 0);
     align-items: center;
     font-family: fantasy;
@@ -64,7 +51,6 @@ ul.no-bullets {
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .synopsis h2 {
@@ -72,10 +58,9 @@ ul.no-bullets {
     font-size: 40px;
     color: rgba(235, 28, 197, 0.9);
     text-shadow: 2px 2px 0 rgb(109, 0, 82);
-
 }
 
-.acerca {
+.about {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -83,7 +68,7 @@ ul.no-bullets {
     border-radius: 10px;
     padding: 5px;
     text-align: left;
-
+  
 }
 
 .synopsis1 {
@@ -92,16 +77,12 @@ ul.no-bullets {
     float:left; 
     width: 50%;
     text-align: center;
-    
-
 }
 
     .cuadro {
     display: block;
-    padding: 30px 10px;
-    align-items: center;
-    
-        
+    padding: 20px 10px;
+    align-items: center;    
     }
 
     /*.synopsis p {
@@ -125,8 +106,10 @@ ul.no-bullets {
         justify-content: space-between;
         flex-wrap: wrap;
         margin: 1px;
-        
-
+      
+      }
+    
+    
 
     }
 
@@ -138,28 +121,9 @@ ul.no-bullets {
   color: #424548;
 }
 
-    .grid-item {
-        background-color: rgba(173, 216, 230, 0.60);
-        text-align: center;
-        padding: 15px;
-        border-radius: 10px;
-        width: 250px;
-        margin: 10px;
-
-    }
-
-   /* .grid-item p {
-        margin: 0px;
-    }
-
-    .grid-item img {
-        width: 120px;
-        border-radius: 50%;
-    }*/
-
     .series {
         display: flex;
-        background-color: rgba(247, 231, 6, 0.6);
+        background-color: rgba(74, 247, 6, 0.6);
         padding: 20px;
         border-radius: 10px;
         margin-top: 20px;
@@ -174,11 +138,23 @@ ul.no-bullets {
         margin-right: 200px;
         margin-left: 10px;
     }
+footer{
+  background-color: orangered;
+}
+    .gen{
+      margin: 10px;
+      text-align: left;
+      color: black;
+    }
+    .mio{
+      margin: 10px;
+      text-align: right;
+      color: black;
+    }
 
-
-@media (max-width: 880px) {
+@media (max-width: 800px) {
   body {
-    font-size: 24px;
+    font-size: 22px;
   }
   .nav-links {
     font-size: 19px;
